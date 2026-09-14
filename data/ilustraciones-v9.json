@@ -1,0 +1,57 @@
+[
+  {
+    "tema": "exoplanetas",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. A newly discovered rocky exoplanet on the edge of its star's habitable zone, seen from space, distant planetary companions. Theme: nuevos compañeros en el universo. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-exoplanetas.webp"
+  },
+  {
+    "tema": "ondas",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. Two merging black holes with luminous accretion disks and subtle artistic ripples in surrounding spacetime. Theme: gravitational waves. Conceptual artwork, not a scientific measurement. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-ondas.webp"
+  },
+  {
+    "tema": "volcanes",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. Volcanic landscape of Jupiter's moon Io, sulfur-yellow terrain, one volcanic plume, giant Jupiter distant in dark sky. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-volcanes.webp"
+  },
+  {
+    "tema": "exploracion",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. An optical telescope in an observatory dome opening to a rich clear night sky, an evocative connection between astronomy and discoveries that change everyday life. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-exploracion.webp"
+  },
+  {
+    "tema": "supernova",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. A dramatic supernova remnant expanding into space, delicate filaments of gas in amber and blue, scientifically inspired editorial artwork. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-supernova.webp"
+  },
+  {
+    "tema": "visitantes",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. An irregular dark asteroid with realistic rocky texture approaching the vicinity of a distant blue Earth, no catastrophic impact, theme visitors from space. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-visitantes.webp"
+  },
+  {
+    "tema": "sol",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. An active Sun with elegant curved coronal loops, the small distant Earth safely separated, evocative illustration of solar activity, no apocalyptic destruction. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-sol.webp"
+  },
+  {
+    "tema": "newspace",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. A realistic small Earth-observation satellite above the curved Earth, sunlight reflecting off solar panels, forests and coastlines visible, theme New Space and a connected society. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-newspace.webp"
+  },
+  {
+    "tema": "carrera",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. An astronaut's bootprints crossing a quiet lunar surface toward a small lunar module, Earth in the distance, evoking the history of the space race. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-carrera.webp"
+  },
+  {
+    "tema": "vida",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. A distant planetary landscape with a vast starry sky and the Milky Way, an inviting sense of the search for life elsewhere, no aliens or creatures. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-vida.webp"
+  },
+  {
+    "tema": "reloj",
+    "prompt": "Use case: stylized-concept. Asset: standalone wide editorial illustration for a Spanish astronomy outreach website article card. An elegant close-up of mechanical clock gears and a pendulum, subtle starlight in the background, theme the human history of measuring time. Sophisticated photographic illustration with physically plausible lighting and tactile detail, deep navy shadows and warm highlights. Landscape 3:2 framing, central subject readable at thumbnail size. No text, letters, labels, logos, watermark, infographic or panel grid. Create original imagery, no user photographs.",
+    "archivo": "assets/ilustracion-reloj.webp"
+  }
+]

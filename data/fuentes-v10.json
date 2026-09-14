@@ -1,0 +1,16 @@
+{
+  "espectra": "https://espectra.astronomiaoan.co/",
+  "descripcion": "https://espectra.astronomiaoan.co/larevista.html",
+  "portadas": [
+    "https://espectra.astronomiaoan.co/images/Portada_vol4num2.png",
+    "https://espectra.astronomiaoan.co/images/Portada_vol4num1.png",
+    "https://espectra.astronomiaoan.co/images/Portada_vol3num2.png",
+    "https://espectra.astronomiaoan.co/images/Portada_vol3num1.png",
+    "https://espectra.astronomiaoan.co/images/Portada_vol2num2.png",
+    "https://espectra.astronomiaoan.co/images/Revista2-Section-3-image-1.png",
+    "https://espectra.astronomiaoan.co/images/Section-3-image-1.png"
+  ],
+  "serie": "https://www.youtube.com/playlist?list=PLZr0kifMjZbs9IAD4XDNANDci2O08WjLS",
+  "podcast": "https://podcastradio.unal.edu.co/programa/la-venganza-de-los-polinomios",
+  "autor": "Datos sobre creación, edición y diseño aportados por Santiago Vargas."
+}

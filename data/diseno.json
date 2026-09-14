@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "pieza-001",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_1.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-001.webp",
+    "thumb": "assets/diseno/pieza-001-thumb.webp"
+  },
+  {
+    "id": "pieza-002",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_2.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-002.webp",
+    "thumb": "assets/diseno/pieza-002-thumb.webp"
+  },
+  {
+    "id": "pieza-003",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_3.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-003.webp",
+    "thumb": "assets/diseno/pieza-003-thumb.webp"
+  },
+  {
+    "id": "pieza-004",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_4.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-004.webp",
+    "thumb": "assets/diseno/pieza-004-thumb.webp"
+  },
+  {
+    "id": "pieza-005",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_5.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-005.webp",
+    "thumb": "assets/diseno/pieza-005-thumb.webp"
+  },
+  {
+    "id": "pieza-006",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_6.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-006.webp",
+    "thumb": "assets/diseno/pieza-006-thumb.webp"
+  },
+  {
+    "id": "pieza-007",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_7.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-007.webp",
+    "thumb": "assets/diseno/pieza-007-thumb.webp"
+  },
+  {
+    "id": "pieza-008",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_8.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-008.webp",
+    "thumb": "assets/diseno/pieza-008-thumb.webp"
+  },
+  {
+    "id": "pieza-009",
+    "year": "2015",
+    "term": "1",
+    "source": "2015-1/charla_2015_1_9.jpg",
+    "label": "Afiche · 2015-1",
+    "full": "assets/diseno/pieza-009.webp",
+    "thumb": "assets/diseno/pieza-009-thumb.webp"
+  },
+  {
+    "id": "pieza-010",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_1.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-010.webp",
+    "thumb": "assets/diseno/pieza-010-thumb.webp"
+  },
+  {
+    "id": "pieza-011",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_10.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-011.webp",
+    "thumb": "assets/diseno/pieza-011-thumb.webp"
+  },
+  {
+    "id": "pieza-012",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_11.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-012.webp",
+    "thumb": "assets/diseno/pieza-012-thumb.webp"
+  },
+  {
+    "id": "pieza-013",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_2.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-013.webp",
+    "thumb": "assets/diseno/pieza-013-thumb.webp"
+  },
+  {
+    "id": "pieza-014",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_3.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-014.webp",
+    "thumb": "assets/diseno/pieza-014-thumb.webp"
+  },
+  {
+    "id": "pieza-015",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_4.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-015.webp",
+    "thumb": "assets/diseno/pieza-015-thumb.webp"
+  },
+  {
+    "id": "pieza-016",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_5.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-016.webp",
+    "thumb": "assets/diseno/pieza-016-thumb.webp"
+  },
+  {
+    "id": "pieza-017",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_6.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-017.webp",
+    "thumb": "assets/diseno/pieza-017-thumb.webp"
+  },
+  {
+    "id": "pieza-018",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_7.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-018.jpg",
+    "thumb": "assets/diseno/pieza-018-thumb.webp"
+  },
+  {
+    "id": "pieza-019",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_8.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-019.webp",
+    "thumb": "assets/diseno/pieza-019-thumb.webp"
+  },
+  {
+    "id": "pieza-020",
+    "year": "2015",
+    "term": "2",
+    "source": "2015-2/charla_2015_2_9.jpg",
+    "label": "Afiche · 2015-2",
+    "full": "assets/diseno/pieza-020.webp",
+    "thumb": "assets/diseno/pieza-020-thumb.webp"
+  },
+  {
+    "id": "pieza-021",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_1.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-021.webp",
+    "thumb": "assets/diseno/pieza-021-thumb.webp"
+  },
+  {
+    "id": "pieza-022",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_10.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-022.webp",
+    "thumb": "assets/diseno/pieza-022-thumb.webp"
+  },
+  {
+    "id": "pieza-023",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_11.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-023.webp",
+    "thumb": "assets/diseno/pieza-023-thumb.webp"
+  },
+  {
+    "id": "pieza-024",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_12.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-024.webp",
+    "thumb": "assets/diseno/pieza-024-thumb.webp"
+  },
+  {
+    "id": "pieza-025",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_2.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-025.webp",
+    "thumb": "assets/diseno/pieza-025-thumb.webp"
+  },
+  {
+    "id": "pieza-026",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_3.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-026.webp",
+    "thumb": "assets/diseno/pieza-026-thumb.webp"
+  },
+  {
+    "id": "pieza-027",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_4.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-027.webp",
+    "thumb": "assets/diseno/pieza-027-thumb.webp"
+  },
+  {
+    "id": "pieza-028",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_5.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-028.webp",
+    "thumb": "assets/diseno/pieza-028-thumb.webp"
+  },
+  {
+    "id": "pieza-029",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_6.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-029.webp",
+    "thumb": "assets/diseno/pieza-029-thumb.webp"
+  },
+  {
+    "id": "pieza-030",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_7.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-030.webp",
+    "thumb": "assets/diseno/pieza-030-thumb.webp"
+  },
+  {
+    "id": "pieza-031",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_8.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-031.webp",
+    "thumb": "assets/diseno/pieza-031-thumb.webp"
+  },
+  {
+    "id": "pieza-032",
+    "year": "2016",
+    "term": "1",
+    "source": "2016-1/charla_2016_1_9.jpg",
+    "label": "Afiche · 2016-1",
+    "full": "assets/diseno/pieza-032.webp",
+    "thumb": "assets/diseno/pieza-032-thumb.webp"
+  },
+  {
+    "id": "pieza-033",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_1.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-033.webp",
+    "thumb": "assets/diseno/pieza-033-thumb.webp"
+  },
+  {
+    "id": "pieza-034",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_10.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-034.webp",
+    "thumb": "assets/diseno/pieza-034-thumb.webp"
+  },
+  {
+    "id": "pieza-035",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_11.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-035.webp",
+    "thumb": "assets/diseno/pieza-035-thumb.webp"
+  },
+  {
+    "id": "pieza-036",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_2.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-036.webp",
+    "thumb": "assets/diseno/pieza-036-thumb.webp"
+  },
+  {
+    "id": "pieza-037",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_3.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-037.webp",
+    "thumb": "assets/diseno/pieza-037-thumb.webp"
+  },
+  {
+    "id": "pieza-038",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_4.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-038.webp",
+    "thumb": "assets/diseno/pieza-038-thumb.webp"
+  },
+  {
+    "id": "pieza-039",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_5.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-039.webp",
+    "thumb": "assets/diseno/pieza-039-thumb.webp"
+  },
+  {
+    "id": "pieza-040",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_6.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-040.jpg",
+    "thumb": "assets/diseno/pieza-040-thumb.webp"
+  },
+  {
+    "id": "pieza-041",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_7.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-041.webp",
+    "thumb": "assets/diseno/pieza-041-thumb.webp"
+  },
+  {
+    "id": "pieza-042",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_8.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-042.webp",
+    "thumb": "assets/diseno/pieza-042-thumb.webp"
+  },
+  {
+    "id": "pieza-043",
+    "year": "2016",
+    "term": "2",
+    "source": "2016-2/charla_2016_2_9.jpg",
+    "label": "Afiche · 2016-2",
+    "full": "assets/diseno/pieza-043.webp",
+    "thumb": "assets/diseno/pieza-043-thumb.webp"
+  },
+  {
+    "id": "pieza-044",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_1.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-044.jpg",
+    "thumb": "assets/diseno/pieza-044-thumb.webp"
+  },
+  {
+    "id": "pieza-045",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_10.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-045.webp",
+    "thumb": "assets/diseno/pieza-045-thumb.webp"
+  },
+  {
+    "id": "pieza-046",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_11.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-046.webp",
+    "thumb": "assets/diseno/pieza-046-thumb.webp"
+  },
+  {
+    "id": "pieza-047",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_12.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-047.webp",
+    "thumb": "assets/diseno/pieza-047-thumb.webp"
+  },
+  {
+    "id": "pieza-048",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_2.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-048.webp",
+    "thumb": "assets/diseno/pieza-048-thumb.webp"
+  },
+  {
+    "id": "pieza-049",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_3.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-049.webp",
+    "thumb": "assets/diseno/pieza-049-thumb.webp"
+  },
+  {
+    "id": "pieza-050",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_4.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-050.webp",
+    "thumb": "assets/diseno/pieza-050-thumb.webp"
+  },
+  {
+    "id": "pieza-051",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_5.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-051.webp",
+    "thumb": "assets/diseno/pieza-051-thumb.webp"
+  },
+  {
+    "id": "pieza-052",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_6.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-052.webp",
+    "thumb": "assets/diseno/pieza-052-thumb.webp"
+  },
+  {
+    "id": "pieza-053",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_7.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-053.webp",
+    "thumb": "assets/diseno/pieza-053-thumb.webp"
+  },
+  {
+    "id": "pieza-054",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_8.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-054.jpg",
+    "thumb": "assets/diseno/pieza-054-thumb.webp"
+  },
+  {
+    "id": "pieza-055",
+    "year": "2017",
+    "term": "1",
+    "source": "2017-1/charla_2017_1_9.jpg",
+    "label": "Afiche · 2017-1",
+    "full": "assets/diseno/pieza-055.webp",
+    "thumb": "assets/diseno/pieza-055-thumb.webp"
+  },
+  {
+    "id": "pieza-056",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_1.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-056.webp",
+    "thumb": "assets/diseno/pieza-056-thumb.webp"
+  },
+  {
+    "id": "pieza-057",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_10.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-057.webp",
+    "thumb": "assets/diseno/pieza-057-thumb.webp"
+  },
+  {
+    "id": "pieza-058",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_11.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-058.webp",
+    "thumb": "assets/diseno/pieza-058-thumb.webp"
+  },
+  {
+    "id": "pieza-059",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_2.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-059.jpg",
+    "thumb": "assets/diseno/pieza-059-thumb.webp"
+  },
+  {
+    "id": "pieza-060",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_3.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-060.webp",
+    "thumb": "assets/diseno/pieza-060-thumb.webp"
+  },
+  {
+    "id": "pieza-061",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_4.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-061.webp",
+    "thumb": "assets/diseno/pieza-061-thumb.webp"
+  },
+  {
+    "id": "pieza-062",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_5.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-062.webp",
+    "thumb": "assets/diseno/pieza-062-thumb.webp"
+  },
+  {
+    "id": "pieza-063",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_6.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-063.webp",
+    "thumb": "assets/diseno/pieza-063-thumb.webp"
+  },
+  {
+    "id": "pieza-064",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_7.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-064.webp",
+    "thumb": "assets/diseno/pieza-064-thumb.webp"
+  },
+  {
+    "id": "pieza-065",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_8.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-065.webp",
+    "thumb": "assets/diseno/pieza-065-thumb.webp"
+  },
+  {
+    "id": "pieza-066",
+    "year": "2017",
+    "term": "2",
+    "source": "2017-2/charla_2017_2_9.jpg",
+    "label": "Afiche · 2017-2",
+    "full": "assets/diseno/pieza-066.webp",
+    "thumb": "assets/diseno/pieza-066-thumb.webp"
+  },
+  {
+    "id": "pieza-067",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_1.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-067.webp",
+    "thumb": "assets/diseno/pieza-067-thumb.webp"
+  },
+  {
+    "id": "pieza-068",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_10.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-068.webp",
+    "thumb": "assets/diseno/pieza-068-thumb.webp"
+  },
+  {
+    "id": "pieza-069",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_11.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-069.webp",
+    "thumb": "assets/diseno/pieza-069-thumb.webp"
+  },
+  {
+    "id": "pieza-070",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_12.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-070.webp",
+    "thumb": "assets/diseno/pieza-070-thumb.webp"
+  },
+  {
+    "id": "pieza-071",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_13.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-071.webp",
+    "thumb": "assets/diseno/pieza-071-thumb.webp"
+  },
+  {
+    "id": "pieza-072",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_14.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-072.webp",
+    "thumb": "assets/diseno/pieza-072-thumb.webp"
+  },
+  {
+    "id": "pieza-073",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_2.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-073.webp",
+    "thumb": "assets/diseno/pieza-073-thumb.webp"
+  },
+  {
+    "id": "pieza-074",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_3.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-074.webp",
+    "thumb": "assets/diseno/pieza-074-thumb.webp"
+  },
+  {
+    "id": "pieza-075",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_4.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-075.webp",
+    "thumb": "assets/diseno/pieza-075-thumb.webp"
+  },
+  {
+    "id": "pieza-076",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_5.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-076.webp",
+    "thumb": "assets/diseno/pieza-076-thumb.webp"
+  },
+  {
+    "id": "pieza-077",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_6.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-077.webp",
+    "thumb": "assets/diseno/pieza-077-thumb.webp"
+  },
+  {
+    "id": "pieza-078",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_7.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-078.webp",
+    "thumb": "assets/diseno/pieza-078-thumb.webp"
+  },
+  {
+    "id": "pieza-079",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_8.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-079.webp",
+    "thumb": "assets/diseno/pieza-079-thumb.webp"
+  },
+  {
+    "id": "pieza-080",
+    "year": "2018",
+    "term": "1",
+    "source": "2018-1/charla_2018_1_9.jpg",
+    "label": "Afiche · 2018-1",
+    "full": "assets/diseno/pieza-080.webp",
+    "thumb": "assets/diseno/pieza-080-thumb.webp"
+  },
+  {
+    "id": "pieza-081",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_1.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-081.webp",
+    "thumb": "assets/diseno/pieza-081-thumb.webp"
+  },
+  {
+    "id": "pieza-082",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_10.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-082.webp",
+    "thumb": "assets/diseno/pieza-082-thumb.webp"
+  },
+  {
+    "id": "pieza-083",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_11.jpeg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-083.webp",
+    "thumb": "assets/diseno/pieza-083-thumb.webp"
+  },
+  {
+    "id": "pieza-084",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_2.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-084.jpg",
+    "thumb": "assets/diseno/pieza-084-thumb.webp"
+  },
+  {
+    "id": "pieza-085",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_3.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-085.webp",
+    "thumb": "assets/diseno/pieza-085-thumb.webp"
+  },
+  {
+    "id": "pieza-086",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_4.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-086.webp",
+    "thumb": "assets/diseno/pieza-086-thumb.webp"
+  },
+  {
+    "id": "pieza-087",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_5.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-087.webp",
+    "thumb": "assets/diseno/pieza-087-thumb.webp"
+  },
+  {
+    "id": "pieza-088",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_6.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-088.webp",
+    "thumb": "assets/diseno/pieza-088-thumb.webp"
+  },
+  {
+    "id": "pieza-089",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_7.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-089.webp",
+    "thumb": "assets/diseno/pieza-089-thumb.webp"
+  },
+  {
+    "id": "pieza-090",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_8.pdf",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-090.webp",
+    "thumb": "assets/diseno/pieza-090-thumb.webp"
+  },
+  {
+    "id": "pieza-091",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/charla_2018_2_9.jpg",
+    "label": "Afiche · 2018-2",
+    "full": "assets/diseno/pieza-091.webp",
+    "thumb": "assets/diseno/pieza-091-thumb.webp"
+  },
+  {
+    "id": "pieza-092",
+    "year": "2018",
+    "term": "2",
+    "source": "2018-2/collague_2018_2.jpg",
+    "label": "Composición · 2018-2",
+    "full": "assets/diseno/pieza-092.webp",
+    "thumb": "assets/diseno/pieza-092-thumb.webp"
+  },
+  {
+    "id": "pieza-093",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_1.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-093.webp",
+    "thumb": "assets/diseno/pieza-093-thumb.webp"
+  },
+  {
+    "id": "pieza-094",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_10.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-094.webp",
+    "thumb": "assets/diseno/pieza-094-thumb.webp"
+  },
+  {
+    "id": "pieza-095",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_11.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-095.webp",
+    "thumb": "assets/diseno/pieza-095-thumb.webp"
+  },
+  {
+    "id": "pieza-096",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_12.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-096.webp",
+    "thumb": "assets/diseno/pieza-096-thumb.webp"
+  },
+  {
+    "id": "pieza-097",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_13.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-097.webp",
+    "thumb": "assets/diseno/pieza-097-thumb.webp"
+  },
+  {
+    "id": "pieza-098",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_14.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-098.webp",
+    "thumb": "assets/diseno/pieza-098-thumb.webp"
+  },
+  {
+    "id": "pieza-099",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_15.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-099.webp",
+    "thumb": "assets/diseno/pieza-099-thumb.webp"
+  },
+  {
+    "id": "pieza-100",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_2.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-100.webp",
+    "thumb": "assets/diseno/pieza-100-thumb.webp"
+  },
+  {
+    "id": "pieza-101",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_3.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-101.webp",
+    "thumb": "assets/diseno/pieza-101-thumb.webp"
+  },
+  {
+    "id": "pieza-102",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_4.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-102.webp",
+    "thumb": "assets/diseno/pieza-102-thumb.webp"
+  },
+  {
+    "id": "pieza-103",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_5.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-103.webp",
+    "thumb": "assets/diseno/pieza-103-thumb.webp"
+  },
+  {
+    "id": "pieza-104",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_6.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-104.webp",
+    "thumb": "assets/diseno/pieza-104-thumb.webp"
+  },
+  {
+    "id": "pieza-105",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_7.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-105.webp",
+    "thumb": "assets/diseno/pieza-105-thumb.webp"
+  },
+  {
+    "id": "pieza-106",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_8.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-106.webp",
+    "thumb": "assets/diseno/pieza-106-thumb.webp"
+  },
+  {
+    "id": "pieza-107",
+    "year": "2019",
+    "term": "1",
+    "source": "2019-1/charla_2019_1_9.jpg",
+    "label": "Afiche · 2019-1",
+    "full": "assets/diseno/pieza-107.webp",
+    "thumb": "assets/diseno/pieza-107-thumb.webp"
+  },
+  {
+    "id": "pieza-108",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_11_Jueves_cuantica.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-108.webp",
+    "thumb": "assets/diseno/pieza-108-thumb.webp"
+  },
+  {
+    "id": "pieza-109",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_12_Jueves_ML.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-109.webp",
+    "thumb": "assets/diseno/pieza-109-thumb.webp"
+  },
+  {
+    "id": "pieza-110",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_1.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-110.webp",
+    "thumb": "assets/diseno/pieza-110-thumb.webp"
+  },
+  {
+    "id": "pieza-111",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_10.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-111.webp",
+    "thumb": "assets/diseno/pieza-111-thumb.webp"
+  },
+  {
+    "id": "pieza-112",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_2.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-112.webp",
+    "thumb": "assets/diseno/pieza-112-thumb.webp"
+  },
+  {
+    "id": "pieza-113",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_3.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-113.webp",
+    "thumb": "assets/diseno/pieza-113-thumb.webp"
+  },
+  {
+    "id": "pieza-114",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_4.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-114.jpg",
+    "thumb": "assets/diseno/pieza-114-thumb.webp"
+  },
+  {
+    "id": "pieza-115",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_5.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-115.webp",
+    "thumb": "assets/diseno/pieza-115-thumb.webp"
+  },
+  {
+    "id": "pieza-116",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_6.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-116.webp",
+    "thumb": "assets/diseno/pieza-116-thumb.webp"
+  },
+  {
+    "id": "pieza-117",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_7.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-117.webp",
+    "thumb": "assets/diseno/pieza-117-thumb.webp"
+  },
+  {
+    "id": "pieza-118",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_8.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-118.webp",
+    "thumb": "assets/diseno/pieza-118-thumb.webp"
+  },
+  {
+    "id": "pieza-119",
+    "year": "2019",
+    "term": "2",
+    "source": "2019-2/charla_2019_2_9.jpg",
+    "label": "Afiche · 2019-2",
+    "full": "assets/diseno/pieza-119.webp",
+    "thumb": "assets/diseno/pieza-119-thumb.webp"
+  },
+  {
+    "id": "pieza-120",
+    "year": "2020",
+    "term": "1",
+    "source": "2020-1/2020_1_1.jpg",
+    "label": "Afiche · 2020-1",
+    "full": "assets/diseno/pieza-120.webp",
+    "thumb": "assets/diseno/pieza-120-thumb.webp"
+  },
+  {
+    "id": "pieza-121",
+    "year": "2020",
+    "term": "1",
+    "source": "2020-1/2020_1_2.jpg",
+    "label": "Afiche · 2020-1",
+    "full": "assets/diseno/pieza-121.webp",
+    "thumb": "assets/diseno/pieza-121-thumb.webp"
+  },
+  {
+    "id": "pieza-122",
+    "year": "2020",
+    "term": "1",
+    "source": "2020-1/charla_2020_1_afiche_jueves.jpg",
+    "label": "Afiche · 2020-1",
+    "full": "assets/diseno/pieza-122.webp",
+    "thumb": "assets/diseno/pieza-122-thumb.webp"
+  },
+  {
+    "id": "pieza-123",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_1.jpg",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-123.webp",
+    "thumb": "assets/diseno/pieza-123-thumb.webp"
+  },
+  {
+    "id": "pieza-124",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_10.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-124.webp",
+    "thumb": "assets/diseno/pieza-124-thumb.webp"
+  },
+  {
+    "id": "pieza-125",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_11.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-125.webp",
+    "thumb": "assets/diseno/pieza-125-thumb.webp"
+  },
+  {
+    "id": "pieza-126",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_12.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-126.webp",
+    "thumb": "assets/diseno/pieza-126-thumb.webp"
+  },
+  {
+    "id": "pieza-127",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_13.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-127.webp",
+    "thumb": "assets/diseno/pieza-127-thumb.webp"
+  },
+  {
+    "id": "pieza-128",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_2.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-128.jpg",
+    "thumb": "assets/diseno/pieza-128-thumb.webp"
+  },
+  {
+    "id": "pieza-129",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_3.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-129.webp",
+    "thumb": "assets/diseno/pieza-129-thumb.webp"
+  },
+  {
+    "id": "pieza-130",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_4.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-130.webp",
+    "thumb": "assets/diseno/pieza-130-thumb.webp"
+  },
+  {
+    "id": "pieza-131",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_5.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-131.webp",
+    "thumb": "assets/diseno/pieza-131-thumb.webp"
+  },
+  {
+    "id": "pieza-132",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_6.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-132.webp",
+    "thumb": "assets/diseno/pieza-132-thumb.webp"
+  },
+  {
+    "id": "pieza-133",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_7.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-133.webp",
+    "thumb": "assets/diseno/pieza-133-thumb.webp"
+  },
+  {
+    "id": "pieza-134",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_8.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-134.webp",
+    "thumb": "assets/diseno/pieza-134-thumb.webp"
+  },
+  {
+    "id": "pieza-135",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_9.png",
+    "label": "Afiche · 2022-2",
+    "full": "assets/diseno/pieza-135.webp",
+    "thumb": "assets/diseno/pieza-135-thumb.webp"
+  },
+  {
+    "id": "pieza-136",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_Faf_bqkWAAIdZ5D.jpg",
+    "label": "Registro fotográfico · 2022-2",
+    "full": "assets/diseno/pieza-136.webp",
+    "thumb": "assets/diseno/pieza-136-thumb.webp"
+  },
+  {
+    "id": "pieza-137",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_Faf_bqkXgAAe0_L.jpg",
+    "label": "Registro fotográfico · 2022-2",
+    "full": "assets/diseno/pieza-137.webp",
+    "thumb": "assets/diseno/pieza-137-thumb.webp"
+  },
+  {
+    "id": "pieza-138",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_Faf_bqkXgAEP8hI.jpg",
+    "label": "Registro fotográfico · 2022-2",
+    "full": "assets/diseno/pieza-138.webp",
+    "thumb": "assets/diseno/pieza-138-thumb.webp"
+  },
+  {
+    "id": "pieza-139",
+    "year": "2022",
+    "term": "2",
+    "source": "2022-2/charla_2022_2_FbqNtfGWAAA-v9I.jpg",
+    "label": "Registro fotográfico · 2022-2",
+    "full": "assets/diseno/pieza-139.webp",
+    "thumb": "assets/diseno/pieza-139-thumb.webp"
+  },
+  {
+    "id": "pieza-140",
+    "year": "2022",
+    "term": "1",
+    "source": "2022_1/charla_2022_1_1.png",
+    "label": "Afiche · 2022-1",
+    "full": "assets/diseno/pieza-140.webp",
+    "thumb": "assets/diseno/pieza-140-thumb.webp"
+  },
+  {
+    "id": "pieza-141",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_1.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-141.webp",
+    "thumb": "assets/diseno/pieza-141-thumb.webp"
+  },
+  {
+    "id": "pieza-142",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_10.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-142.webp",
+    "thumb": "assets/diseno/pieza-142-thumb.webp"
+  },
+  {
+    "id": "pieza-143",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_11.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-143.webp",
+    "thumb": "assets/diseno/pieza-143-thumb.webp"
+  },
+  {
+    "id": "pieza-144",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_12.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-144.webp",
+    "thumb": "assets/diseno/pieza-144-thumb.webp"
+  },
+  {
+    "id": "pieza-145",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_2.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-145.webp",
+    "thumb": "assets/diseno/pieza-145-thumb.webp"
+  },
+  {
+    "id": "pieza-146",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_3.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-146.webp",
+    "thumb": "assets/diseno/pieza-146-thumb.webp"
+  },
+  {
+    "id": "pieza-147",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_4.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-147.webp",
+    "thumb": "assets/diseno/pieza-147-thumb.webp"
+  },
+  {
+    "id": "pieza-148",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_5.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-148.webp",
+    "thumb": "assets/diseno/pieza-148-thumb.webp"
+  },
+  {
+    "id": "pieza-149",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_6.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-149.webp",
+    "thumb": "assets/diseno/pieza-149-thumb.webp"
+  },
+  {
+    "id": "pieza-150",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_7.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-150.webp",
+    "thumb": "assets/diseno/pieza-150-thumb.webp"
+  },
+  {
+    "id": "pieza-151",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_8.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-151.jpg",
+    "thumb": "assets/diseno/pieza-151-thumb.webp"
+  },
+  {
+    "id": "pieza-152",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charla_2023_1_9.png",
+    "label": "Afiche · 2023-1",
+    "full": "assets/diseno/pieza-152.webp",
+    "thumb": "assets/diseno/pieza-152-thumb.webp"
+  },
+  {
+    "id": "pieza-153",
+    "year": "2023",
+    "term": "1",
+    "source": "2023-1/charlas.png",
+    "label": "Composición · 2023-1",
+    "full": "assets/diseno/pieza-153.webp",
+    "thumb": "assets/diseno/pieza-153-thumb.webp"
+  },
+  {
+    "id": "pieza-154",
+    "year": "2023",
+    "term": "2",
+    "source": "2023-2/charla_2023_1.png",
+    "label": "Afiche · 2023-2",
+    "full": "assets/diseno/pieza-154.webp",
+    "thumb": "assets/diseno/pieza-154-thumb.webp"
+  },
+  {
+    "id": "pieza-155",
+    "year": "2024",
+    "term": "1",
+    "source": "2024-1/charla_2024_1_1.png",
+    "label": "Afiche · 2024-1",
+    "full": "assets/diseno/pieza-155.webp",
+    "thumb": "assets/diseno/pieza-155-thumb.webp"
+  },
+  {
+    "id": "pieza-156",
+    "year": "2024",
+    "term": "1",
+    "source": "2024-1/charla_2024_1_2.png",
+    "label": "Afiche · 2024-1",
+    "full": "assets/diseno/pieza-156.webp",
+    "thumb": "assets/diseno/pieza-156-thumb.webp"
+  },
+  {
+    "id": "pieza-157",
+    "year": "2024",
+    "term": "1",
+    "source": "2024-1/charla_2024_1_3.png",
+    "label": "Afiche · 2024-1",
+    "full": "assets/diseno/pieza-157.webp",
+    "thumb": "assets/diseno/pieza-157-thumb.webp"
+  },
+  {
+    "id": "pieza-158",
+    "year": "2025",
+    "term": "1",
+    "source": "2025-1/charla_2025_1_2.png",
+    "label": "Afiche · 2025-1",
+    "full": "assets/diseno/pieza-158.webp",
+    "thumb": "assets/diseno/pieza-158-thumb.webp"
+  },
+  {
+    "id": "pieza-159",
+    "year": "2025",
+    "term": "1",
+    "source": "2025-1/charla_2025_1_3.png",
+    "label": "Afiche · 2025-1",
+    "full": "assets/diseno/pieza-159.webp",
+    "thumb": "assets/diseno/pieza-159-thumb.webp"
+  },
+  {
+    "id": "pieza-160",
+    "year": "2025",
+    "term": "1",
+    "source": "2025-1/charla_2025_1_4.png",
+    "label": "Afiche · 2025-1",
+    "full": "assets/diseno/pieza-160.webp",
+    "thumb": "assets/diseno/pieza-160-thumb.webp"
+  },
+  {
+    "id": "pieza-161",
+    "year": "2025",
+    "term": "1",
+    "source": "2025-1/charla_2025_1_5.png",
+    "label": "Afiche · 2025-1",
+    "full": "assets/diseno/pieza-161.jpg",
+    "thumb": "assets/diseno/pieza-161-thumb.webp"
+  },
+  {
+    "id": "pieza-162",
+    "year": "2025",
+    "term": "1",
+    "source": "2025-1/charla_2025_1_8.png",
+    "label": "Afiche · 2025-1",
+    "full": "assets/diseno/pieza-162.webp",
+    "thumb": "assets/diseno/pieza-162-thumb.webp"
+  },
+  {
+    "id": "pieza-163",
+    "year": "2025",
+    "term": "1",
+    "source": "2025-1/charla_2025_1_9.png",
+    "label": "Afiche · 2025-1",
+    "full": "assets/diseno/pieza-163.webp",
+    "thumb": "assets/diseno/pieza-163-thumb.webp"
+  },
+  {
+    "id": "pieza-164",
+    "year": "2025",
+    "term": "2",
+    "source": "2025-2/charla_2025_2_12.png",
+    "label": "Afiche · 2025-2",
+    "full": "assets/diseno/pieza-164.webp",
+    "thumb": "assets/diseno/pieza-164-thumb.webp"
+  },
+  {
+    "id": "pieza-165",
+    "year": "2025",
+    "term": "2",
+    "source": "2025-2/charla_2025_2_2.png",
+    "label": "Afiche · 2025-2",
+    "full": "assets/diseno/pieza-165.webp",
+    "thumb": "assets/diseno/pieza-165-thumb.webp"
+  },
+  {
+    "id": "pieza-166",
+    "year": "2025",
+    "term": "2",
+    "source": "2025-2/charla_2025_2_4.png",
+    "label": "Afiche · 2025-2",
+    "full": "assets/diseno/pieza-166.webp",
+    "thumb": "assets/diseno/pieza-166-thumb.webp"
+  },
+  {
+    "id": "pieza-167",
+    "year": "2025",
+    "term": "2",
+    "source": "2025-2/charla_2025_2_6.png",
+    "label": "Afiche · 2025-2",
+    "full": "assets/diseno/pieza-167.webp",
+    "thumb": "assets/diseno/pieza-167-thumb.webp"
+  },
+  {
+    "id": "pieza-168",
+    "year": "2025",
+    "term": "2",
+    "source": "2025-2/charla_2025_2_7.png",
+    "label": "Afiche · 2025-2",
+    "full": "assets/diseno/pieza-168.webp",
+    "thumb": "assets/diseno/pieza-168-thumb.webp"
+  },
+  {
+    "id": "pieza-169",
+    "year": "2025",
+    "term": "2",
+    "source": "2025-2/charla_2025_2_8.png",
+    "label": "Afiche · 2025-2",
+    "full": "assets/diseno/pieza-169.webp",
+    "thumb": "assets/diseno/pieza-169-thumb.webp"
+  },
+  {
+    "id": "pieza-170",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_1.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-170.jpg",
+    "thumb": "assets/diseno/pieza-170-thumb.webp"
+  },
+  {
+    "id": "pieza-171",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_10.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-171.webp",
+    "thumb": "assets/diseno/pieza-171-thumb.webp"
+  },
+  {
+    "id": "pieza-172",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_2.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-172.webp",
+    "thumb": "assets/diseno/pieza-172-thumb.webp"
+  },
+  {
+    "id": "pieza-173",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_3.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-173.webp",
+    "thumb": "assets/diseno/pieza-173-thumb.webp"
+  },
+  {
+    "id": "pieza-174",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_4.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-174.webp",
+    "thumb": "assets/diseno/pieza-174-thumb.webp"
+  },
+  {
+    "id": "pieza-175",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_5.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-175.webp",
+    "thumb": "assets/diseno/pieza-175-thumb.webp"
+  },
+  {
+    "id": "pieza-176",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_6.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-176.webp",
+    "thumb": "assets/diseno/pieza-176-thumb.webp"
+  },
+  {
+    "id": "pieza-177",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_7.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-177.jpg",
+    "thumb": "assets/diseno/pieza-177-thumb.webp"
+  },
+  {
+    "id": "pieza-178",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_8.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-178.webp",
+    "thumb": "assets/diseno/pieza-178-thumb.webp"
+  },
+  {
+    "id": "pieza-179",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/2026_1_9.png",
+    "label": "Afiche · 2026-1",
+    "full": "assets/diseno/pieza-179.webp",
+    "thumb": "assets/diseno/pieza-179-thumb.webp"
+  },
+  {
+    "id": "pieza-180",
+    "year": "2026",
+    "term": "1",
+    "source": "2026_1/Collage.png",
+    "label": "Composición · 2026-1",
+    "full": "assets/diseno/pieza-180.webp",
+    "thumb": "assets/diseno/pieza-180-thumb.webp"
+  },
+  {
+    "id": "pieza-181",
+    "year": "2026",
+    "term": "2",
+    "source": "2026_2/2026_2_1.png",
+    "label": "Afiche · 2026-2",
+    "full": "assets/diseno/pieza-181.webp",
+    "thumb": "assets/diseno/pieza-181-thumb.webp"
+  },
+  {
+    "id": "pieza-182",
+    "year": "2026",
+    "term": "2",
+    "source": "2026_2/2026_2_2.png",
+    "label": "Afiche · 2026-2",
+    "full": "assets/diseno/pieza-182.webp",
+    "thumb": "assets/diseno/pieza-182-thumb.webp"
+  },
+  {
+    "id": "pieza-183",
+    "year": "2026",
+    "term": "2",
+    "source": "2026_2/2026_2_3.png",
+    "label": "Afiche · 2026-2",
+    "full": "assets/diseno/pieza-183.webp",
+    "thumb": "assets/diseno/pieza-183-thumb.webp"
+  }
+]
