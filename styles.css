@@ -44,3 +44,5 @@ img[src$="paisaje.webp"]{object-position:center bottom!important}.media-card img
 @media(max-width:1100px){#navegacion a{font-size:13.5px}}
 @media(max-width:900px){#navegacion a{font-size:18px}#navegacion a::before{left:100%;top:50%;margin:-12px 0 0 10px}}
 @media(prefers-reduced-motion:reduce){#navegacion a::before{transition:opacity .2s}}
+
+.footinfo p a{font-size:inherit;display:inline;margin:0;padding:0}
