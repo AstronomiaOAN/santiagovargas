@@ -11,9 +11,10 @@
 </script>
 <style>
 .solar-activity{position:absolute;pointer-events:none;overflow:visible;opacity:1}
-.solar-glow{mix-blend-mode:screen;transform-box:fill-box;transform-origin:center;animation:solar-pulse 3s ease-in-out infinite alternate}
-.solar-glow.secondary{animation-duration:4.5s;animation-delay:-3s}
-@keyframes solar-pulse{from{opacity:.2;transform:scale(.8)}to{opacity:.85;transform:scale(1.25)}}
+.solar-glow{mix-blend-mode:screen;transform-box:fill-box;transform-origin:center;animation:solar-pulse 7s ease-in-out infinite alternate}
+.solar-glow.secondary{animation-duration:9s;animation-delay:-4s}
+.solar-glow.tertiary{animation-duration:11s;animation-delay:-7s}
+@keyframes solar-pulse{from{opacity:.05;transform:scale(.94)}to{opacity:.4;transform:scale(1.06)}}
 .hero.solar-paused .solar-glow{animation-play-state:paused}
 @media(prefers-reduced-motion:reduce){.solar-activity{display:none}}
 </style>
@@ -41,68 +42,58 @@
 <svg class="solar-activity" viewBox="0 0 1785 881" aria-hidden="true" focusable="false">
 <defs>
   <filter id="solar-flow" x="-5%" y="-5%" width="110%" height="110%">
-    <feTurbulence type="fractalNoise" baseFrequency=".009 .018" numOctaves="2" seed="7" result="plasma"/>
-    <feOffset in="plasma" result="drift"><animate attributeName="dy" values="-65;65;-65" dur="4s" repeatCount="indefinite"/></feOffset>
-    <feDisplacementMap in="SourceGraphic" in2="drift" scale="32" xChannelSelector="R" yChannelSelector="G"/>
+    <feTurbulence type="fractalNoise" baseFrequency=".012 .02" numOctaves="2" seed="7" result="plasma"/>
+    <feOffset in="plasma" result="drift"><animate attributeName="dy" values="-40;40;-40" dur="16s" repeatCount="indefinite"/></feOffset>
+    <feDisplacementMap in="SourceGraphic" in2="drift" scale="9" xChannelSelector="R" yChannelSelector="G"/>
   </filter>
-  <filter id="solar-bloom"><feGaussianBlur stdDeviation="3"/></filter>
-  <radialGradient id="solar-soft"><stop offset="0" stop-color="white"/><stop offset=".72" stop-color="white" stop-opacity=".95"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
-  <mask id="solar-regions"><rect width="1785" height="881" fill="black"/>
-    <ellipse cx="1510" cy="445" rx="265" ry="610" fill="url(#solar-soft)"/>
-    <ellipse cx="1030" cy="95" rx="205" ry="105" fill="url(#solar-soft)"/>
-    <ellipse cx="365" cy="245" rx="65" ry="150" fill="url(#solar-soft)"/>
+  <filter id="solar-bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+  <!-- Solo el interior del disco: el limbo y la silueta quedan fuera -->
+  <mask id="solar-interior" maskUnits="userSpaceOnUse" x="0" y="0" width="1785" height="881">
+    <image href="assets/solar-interior-mask.png" width="1785" height="881" preserveAspectRatio="none"/>
   </mask>
-  <radialGradient id="solar-flare"><stop stop-color="#fffbd5" stop-opacity=".85"/><stop offset=".3" stop-color="#ffd25c" stop-opacity=".5"/><stop offset="1" stop-color="#ff8500" stop-opacity="0"/></radialGradient>
+  <!-- Solo fuera del limbo: el material aparece al salir del borde -->
+  <radialGradient id="solar-outside-fade" gradientUnits="userSpaceOnUse" cx="1000" cy="640" r="820">
+    <stop offset="0" stop-color="black"/><stop offset=".875" stop-color="black"/><stop offset=".9" stop-color="white"/><stop offset="1" stop-color="white"/>
+  </radialGradient>
+  <mask id="solar-outside" maskUnits="userSpaceOnUse" x="0" y="0" width="1785" height="881"><rect width="1785" height="881" fill="url(#solar-outside-fade)"/></mask>
+  <radialGradient id="solar-flare"><stop stop-color="#fffbd5" stop-opacity=".6"/><stop offset=".35" stop-color="#ffd25c" stop-opacity=".3"/><stop offset="1" stop-color="#ff8500" stop-opacity="0"/></radialGradient>
 </defs>
-<g mask="url(#solar-regions)">
+<g mask="url(#solar-interior)">
   <image href="assets/hero-restaurada.webp" width="1785" height="881" filter="url(#solar-flow)"/>
-  <ellipse class="solar-glow" cx="1470" cy="340" rx="175" ry="155" fill="url(#solar-flare)"/>
-  <ellipse class="solar-glow secondary" cx="1350" cy="180" rx="120" ry="140" fill="url(#solar-flare)"/>
-  <ellipse class="solar-glow secondary" cx="1660" cy="470" rx="100" ry="140" fill="url(#solar-flare)"/>
-<g transform="translate(1460 345) scale(1)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="0.0s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -150 -65 -180 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="0.0s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -150 -65 -180 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="0.0s" repeatCount="indefinite"/></path>
+  <ellipse class="solar-glow" cx="1440" cy="320" rx="95" ry="85" fill="url(#solar-flare)"/>
+  <ellipse class="solar-glow secondary" cx="1345" cy="175" rx="70" ry="80" fill="url(#solar-flare)"/>
+  <ellipse class="solar-glow tertiary" cx="1090" cy="470" rx="80" ry="70" fill="url(#solar-flare)"/>
+<g transform="translate(1440 330) scale(0.55)" opacity="0" style="mix-blend-mode:screen">
+<animate attributeName="opacity" values="0;.35;.25;0" keyTimes="0;.3;.7;1" dur="10s" begin="0s" repeatCount="indefinite"/>
+<path fill="none" stroke="#ffb734" stroke-width="6" filter="url(#solar-bloom)" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -110 -28 -118 -110 -24 -122 C 70 -132 95 -38 25 15;M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15" dur="10s" begin="0s" repeatCount="indefinite"/></path>
+<path fill="none" stroke="#fff2af" stroke-width="1.2" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -110 -28 -118 -110 -24 -122 C 70 -132 95 -38 25 15;M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15" dur="10s" begin="0s" repeatCount="indefinite"/></path>
 </g>
-<g transform="translate(1460 345) scale(1)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="-0.65s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15;M -33 15 C -159 -65 -189 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-0.65s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15;M -33 15 C -159 -65 -189 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-0.65s" repeatCount="indefinite"/></path>
+<g transform="translate(1345 185) scale(0.45)" opacity="0" style="mix-blend-mode:screen">
+<animate attributeName="opacity" values="0;.35;.25;0" keyTimes="0;.3;.7;1" dur="10s" begin="-5s" repeatCount="indefinite"/>
+<path fill="none" stroke="#ffb734" stroke-width="6" filter="url(#solar-bloom)" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -110 -28 -118 -110 -24 -122 C 70 -132 95 -38 25 15;M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15" dur="10s" begin="-5s" repeatCount="indefinite"/></path>
+<path fill="none" stroke="#fff2af" stroke-width="1.2" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -110 -28 -118 -110 -24 -122 C 70 -132 95 -38 25 15;M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15" dur="10s" begin="-5s" repeatCount="indefinite"/></path>
 </g>
-<g transform="translate(1460 345) scale(1)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="-1.3s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15;M -42 15 C -168 -65 -198 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-1.3s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15;M -42 15 C -168 -65 -198 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-1.3s" repeatCount="indefinite"/></path>
 </g>
-<g transform="translate(1360 185) scale(0.7)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="-2.0s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -150 -65 -180 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-2.0s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -150 -65 -180 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-2.0s" repeatCount="indefinite"/></path>
+<g mask="url(#solar-outside)" style="mix-blend-mode:screen">
+<g transform="translate(1446 69) rotate(-52) scale(0.9)" opacity="0"><animate attributeName="opacity" values="0;.55;.4;0" keyTimes="0;.25;.7;1" dur="7s" begin="0s" repeatCount="indefinite"/>
+  <path d="M -6 0 C 14 -8 28 5 46 -3" fill="none" stroke="#ffb734" stroke-width="6" stroke-linecap="round" filter="url(#solar-bloom)" stroke-dasharray="14 86"><animate attributeName="stroke-dashoffset" values="14;-42" dur="7s" begin="0s" repeatCount="indefinite"/></path>
+  <path d="M -6 0 C 14 -8 28 5 46 -3" fill="none" stroke="#fff2af" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="14 86"><animate attributeName="stroke-dashoffset" values="14;-42" dur="7s" begin="0s" repeatCount="indefinite"/></path>
 </g>
-<g transform="translate(1360 185) scale(0.7)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="-2.65s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15;M -33 15 C -159 -65 -189 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-2.65s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15;M -33 15 C -159 -65 -189 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-2.65s" repeatCount="indefinite"/></path>
+<g transform="translate(1571 194) rotate(-38) scale(1.0)" opacity="0"><animate attributeName="opacity" values="0;.55;.4;0" keyTimes="0;.25;.7;1" dur="8s" begin="-2.5s" repeatCount="indefinite"/>
+  <path d="M -6 0 C 17 -10 35 6 58 -4" fill="none" stroke="#ffb734" stroke-width="6" stroke-linecap="round" filter="url(#solar-bloom)" stroke-dasharray="14 98"><animate attributeName="stroke-dashoffset" values="14;-54" dur="8s" begin="-2.5s" repeatCount="indefinite"/></path>
+  <path d="M -6 0 C 17 -10 35 6 58 -4" fill="none" stroke="#fff2af" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="14 98"><animate attributeName="stroke-dashoffset" values="14;-54" dur="8s" begin="-2.5s" repeatCount="indefinite"/></path>
 </g>
-<g transform="translate(1360 185) scale(0.7)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="-3.3s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15;M -42 15 C -168 -65 -198 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-3.3s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15;M -42 15 C -168 -65 -198 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-3.3s" repeatCount="indefinite"/></path>
+<g transform="translate(1587 214) rotate(-36) scale(0.8)" opacity="0"><animate attributeName="opacity" values="0;.55;.4;0" keyTimes="0;.25;.7;1" dur="8s" begin="-6s" repeatCount="indefinite"/>
+  <path d="M -6 0 C 12 7 24 -4 40 3" fill="none" stroke="#ffb734" stroke-width="6" stroke-linecap="round" filter="url(#solar-bloom)" stroke-dasharray="14 80"><animate attributeName="stroke-dashoffset" values="14;-36" dur="8s" begin="-6s" repeatCount="indefinite"/></path>
+  <path d="M -6 0 C 12 7 24 -4 40 3" fill="none" stroke="#fff2af" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="14 80"><animate attributeName="stroke-dashoffset" values="14;-36" dur="8s" begin="-6s" repeatCount="indefinite"/></path>
 </g>
-<g transform="translate(1650 470) scale(0.75)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="-3.0s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -150 -65 -180 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-3.0s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -24 15 C -95 -15 -100 -75 -20 -85 C 50 -95 75 -20 25 15;M -24 15 C -150 -65 -180 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-3.0s" repeatCount="indefinite"/></path>
+<g transform="translate(1681 392) rotate(-20) scale(1.0)" opacity="0"><animate attributeName="opacity" values="0;.55;.4;0" keyTimes="0;.25;.7;1" dur="7.5s" begin="-1.2s" repeatCount="indefinite"/>
+  <path d="M -6 0 C 16 9 31 -5 52 4" fill="none" stroke="#ffb734" stroke-width="6" stroke-linecap="round" filter="url(#solar-bloom)" stroke-dasharray="14 92"><animate attributeName="stroke-dashoffset" values="14;-48" dur="7.5s" begin="-1.2s" repeatCount="indefinite"/></path>
+  <path d="M -6 0 C 16 9 31 -5 52 4" fill="none" stroke="#fff2af" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="14 92"><animate attributeName="stroke-dashoffset" values="14;-48" dur="7.5s" begin="-1.2s" repeatCount="indefinite"/></path>
 </g>
-<g transform="translate(1650 470) scale(0.75)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="-3.65s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15;M -33 15 C -159 -65 -189 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-3.65s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -33 15 C -104 -15 -109 -75 -20 -85 C 50 -95 75 -20 25 15;M -33 15 C -159 -65 -189 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-3.65s" repeatCount="indefinite"/></path>
-</g>
-<g transform="translate(1650 470) scale(0.75)" opacity="0" style="mix-blend-mode:screen">
-<animate attributeName="opacity" values="0;.8;.55;0" keyTimes="0;.2;.65;1" dur="4.8s" begin="-4.3s" repeatCount="indefinite"/>
-<path fill="none" stroke="#ffb734" stroke-width="7" filter="url(#solar-bloom)" d="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15;M -42 15 C -168 -65 -198 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-4.3s" repeatCount="indefinite"/></path>
-<path fill="none" stroke="#fff2af" stroke-width="1.5" d="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15"><animate attributeName="d" values="M -42 15 C -113 -15 -118 -75 -20 -85 C 50 -95 75 -20 25 15;M -42 15 C -168 -65 -198 -225 -30 -240 C 120 -250 155 -70 25 15" dur="4.8s" begin="-4.3s" repeatCount="indefinite"/></path>
+<g transform="translate(1720 552) rotate(-7) scale(0.9)" opacity="0"><animate attributeName="opacity" values="0;.55;.4;0" keyTimes="0;.25;.7;1" dur="9s" begin="-4s" repeatCount="indefinite"/>
+  <path d="M -6 0 C 13 -7 26 4 44 -3" fill="none" stroke="#ffb734" stroke-width="6" stroke-linecap="round" filter="url(#solar-bloom)" stroke-dasharray="14 84"><animate attributeName="stroke-dashoffset" values="14;-40" dur="9s" begin="-4s" repeatCount="indefinite"/></path>
+  <path d="M -6 0 C 13 -7 26 4 44 -3" fill="none" stroke="#fff2af" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="14 84"><animate attributeName="stroke-dashoffset" values="14;-40" dur="9s" begin="-4s" repeatCount="indefinite"/></path>
 </g>
 </g>
 </svg>
