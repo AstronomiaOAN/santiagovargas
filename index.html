@@ -9,6 +9,14 @@
 <link rel="stylesheet" href="styles.css">
 <script src="script.js" defer>
 </script>
+<style>
+.solar-activity{position:absolute;pointer-events:none;overflow:visible;opacity:.72}
+.solar-glow{mix-blend-mode:screen;transform-box:fill-box;transform-origin:center;animation:solar-pulse 5s ease-in-out infinite alternate}
+.solar-glow.secondary{animation-duration:7s;animation-delay:-3s}
+@keyframes solar-pulse{from{opacity:.12;transform:scale(.88)}to{opacity:.62;transform:scale(1.14)}}
+.hero.solar-paused .solar-glow{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.solar-activity{display:none}}
+</style>
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -30,6 +38,28 @@
 <main id="contenido">
 <section class="hero">
 <img src="assets/hero-restaurada.webp" alt="Santiago Vargas durante una presentación con una imagen del Sol de fondo" fetchpriority="high">
+<svg class="solar-activity" viewBox="0 0 1785 881" aria-hidden="true" focusable="false">
+<defs>
+  <filter id="solar-flow" x="-5%" y="-5%" width="110%" height="110%">
+    <feTurbulence type="fractalNoise" baseFrequency=".009 .018" numOctaves="2" seed="7" result="plasma"/>
+    <feOffset in="plasma" result="drift"><animate attributeName="dy" values="-14;14;-14" dur="9s" repeatCount="indefinite"/></feOffset>
+    <feDisplacementMap in="SourceGraphic" in2="drift" scale="9" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <radialGradient id="solar-soft"><stop offset="0" stop-color="white"/><stop offset=".72" stop-color="white" stop-opacity=".95"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+  <mask id="solar-regions"><rect width="1785" height="881" fill="black"/>
+    <ellipse cx="1510" cy="445" rx="265" ry="610" fill="url(#solar-soft)"/>
+    <ellipse cx="1030" cy="95" rx="205" ry="105" fill="url(#solar-soft)"/>
+    <ellipse cx="365" cy="245" rx="65" ry="150" fill="url(#solar-soft)"/>
+  </mask>
+  <radialGradient id="solar-flare"><stop stop-color="#fffbd5" stop-opacity=".85"/><stop offset=".3" stop-color="#ffd25c" stop-opacity=".5"/><stop offset="1" stop-color="#ff8500" stop-opacity="0"/></radialGradient>
+</defs>
+<g mask="url(#solar-regions)">
+  <image href="assets/hero-restaurada.webp" width="1785" height="881" filter="url(#solar-flow)"/>
+  <ellipse class="solar-glow" cx="1470" cy="340" rx="175" ry="155" fill="url(#solar-flare)"/>
+  <ellipse class="solar-glow secondary" cx="1350" cy="180" rx="120" ry="140" fill="url(#solar-flare)"/>
+  <ellipse class="solar-glow secondary" cx="1660" cy="470" rx="100" ry="140" fill="url(#solar-flare)"/>
+</g>
+</svg>
 <div class="hero-shade">
 </div>
 <div class="hero-copy">
@@ -126,5 +156,37 @@
 <p class="small">© 2026 Santiago Vargas Domínguez</p>
 </div>
 </footer>
+<script>
+(() => {
+  const hero = document.querySelector('.hero');
+  const photo = hero.querySelector('img');
+  const solar = hero.querySelector('.solar-activity');
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  let visible = true;
+  function alignSolar() {
+    const scale = Math.max(hero.clientWidth / 1785, hero.clientHeight / 881);
+    const position = parseFloat(getComputedStyle(photo).objectPosition) / 100;
+    solar.style.width = `${1785 * scale}px`;
+    solar.style.height = `${881 * scale}px`;
+    solar.style.left = `${(hero.clientWidth - 1785 * scale) * position}px`;
+    solar.style.top = `${(hero.clientHeight - 881 * scale) / 2}px`;
+  }
+  function updateAnimation() {
+    const stopped = reducedMotion.matches || document.hidden || !visible;
+    hero.classList.toggle('solar-paused', stopped);
+    if (stopped) solar.pauseAnimations();
+    else solar.unpauseAnimations();
+  }
+  new ResizeObserver(alignSolar).observe(hero);
+  new IntersectionObserver(([entry]) => {
+    visible = entry.isIntersecting;
+    updateAnimation();
+  }).observe(hero);
+  reducedMotion.addEventListener('change', updateAnimation);
+  document.addEventListener('visibilitychange', updateAnimation);
+  alignSolar();
+  updateAnimation();
+})();
+</script>
 </body>
 </html>
