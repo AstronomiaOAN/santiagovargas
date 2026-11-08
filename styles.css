@@ -34,3 +34,13 @@ img[src$="paisaje.webp"]{object-position:center bottom!important}.media-card img
 @media(max-width:480px){.espectra-covers{grid-template-columns:1fr}.espectra-covers img{height:370px}}
 
 .book-card img[src*="obra-"]{width:100%;height:275px;object-fit:contain!important;padding:12px;box-sizing:border-box;background:#f0f3f5;clip-path:none}.home-book-cover[src*="obra-"]{object-fit:contain;height:auto;clip-path:none}
+
+/* Menú principal: letra más grande y sol muisca al pasar el cursor */
+#navegacion a{position:relative;font-size:16.5px}
+#navegacion a::before{content:"";position:absolute;left:50%;top:-15px;width:24px;height:24px;margin-left:-12px;background:url(assets/sol-muisca.svg) center/contain no-repeat;opacity:0;transform:translateY(6px) scale(.35) rotate(-120deg);transition:opacity .25s ease,transform .5s cubic-bezier(.2,.9,.25,1.25);pointer-events:none;filter:drop-shadow(0 0 4px rgba(240,170,60,.55))}
+#navegacion a:hover::before,#navegacion a:focus-visible::before{opacity:1;transform:none}
+#navegacion a:hover{color:var(--accent)}
+@media(max-width:1250px){#navegacion a{font-size:15px}}
+@media(max-width:1100px){#navegacion a{font-size:13.5px}}
+@media(max-width:900px){#navegacion a{font-size:18px}#navegacion a::before{left:100%;top:50%;margin:-12px 0 0 10px}}
+@media(prefers-reduced-motion:reduce){#navegacion a::before{transition:opacity .2s}}
