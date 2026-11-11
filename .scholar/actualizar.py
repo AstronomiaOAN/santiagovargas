@@ -48,7 +48,20 @@ def main(ruta):
                    rf"\g<1>{MESES[hoy.month - 1]} de {hoy.year}\g<2>", s)
     assert n == 1
 
-    pubs = [p for p in datos["publicaciones"] if p.get("titulo")][:CUANTAS]
+    # Scholar a veces lista la misma obra dos veces (p. ej. preprint y versión
+    # sin revista): se conserva la entrada con más información.
+    unicas = {}
+    for p in datos["publicaciones"]:
+        if not p.get("titulo"):
+            continue
+        clave = re.sub(r"\W+", " ", p["titulo"].lower()).strip()
+        previa = unicas.get(clave)
+        if previa is None:
+            unicas[clave] = p
+        elif not previa.get("revista") and p.get("revista"):
+            unicas[clave] = {**p, "_orden": previa.get("_orden")}
+        unicas[clave].setdefault("_orden", len(unicas))
+    pubs = sorted(unicas.values(), key=lambda p: p["_orden"])[:CUANTAS]
     assert len(pubs) >= 3, "muy pocas publicaciones: ¿se leyó bien la página?"
     filas = []
     for p in pubs:
